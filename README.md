@@ -8,7 +8,7 @@ Deployed IT-KEY-VAULT-123 inside the KeyStorage resource group.
 Initially, no keys or access policies were configured.
 
 📸 Screenshot:
-[](./Images/1.png)
+![Step 1](./Images/1.png)
 
 🔹 Step 2: Managed Identity Deployment
 
@@ -17,7 +17,7 @@ Deployed a User-Assigned Managed Identity Vault-ID-Manager in the Identity-Manag
 This identity is later used by the Disk Encryption Set to access the Key Vault.
 
 📸 Screenshot:
-[](./Images/2.png)
+![Step 2](./Images/2.png)
 
 🔹 Step 3: Disk Encryption Set (DES) Creation Attempt
 
@@ -30,7 +30,7 @@ Linked to Key Vault IT-KEY-VAULT-123 with key Pass-Encryption-Key.
 Configured to use Vault-ID-Manager for access.
 
 📸 Screenshot:
-[](./Images/3.png)
+![Step 3](./Images/3.png)
 
 🔹 Step 4: Deployment Failure ❌
 
