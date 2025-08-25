@@ -40,7 +40,7 @@ Error:
 Cause: The managed identity had no Key Vault permissions yet.
 
 📸 Screenshot:
-[](./Images/error_4.png)
+![Step 4](./Images/error_4.png)
 
 🔹 Step 5: Fix – Adding Role Assignment ✅
 
@@ -51,7 +51,7 @@ Vault-ID-Manager → Key Vault Crypto User.
 Myself → Key Vault Data Access Administrator.
 
 📸 Screenshot:
-[](./Images/5.png)
+![Step 5](./Images/5.png)
 
 🔹 Step 6: Disk Encryption Set Deployment (Retry) ✅
 
@@ -60,7 +60,7 @@ Deployment succeeded after fixing IAM permissions.
 DES now correctly linked to the Key Vault.
 
 📸 Screenshot:
-[](./Images/successful_6.png)
+![Step 6](./Images/successful_6.png)
 
 🔹 Step 7: VM Disk Encryption Configuration
 
@@ -73,7 +73,7 @@ Customer-managed key: Pass-Encryption-Key (from IT-KEY-VAULT-123).
 Encryption set: Disk-Encryption-KeySet.
 
 📸 Screenshot:
-[](./Images/7_change_successful.png)
+![Step 7](./Images/7_change_successful.png)
 
 ✅ End Result
 
